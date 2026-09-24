@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f7f7f5;
+  --color-primary: #111111;
+  --color-secondary: #242424;
+  --color-text: #171717;
+  --color-muted: #737373;
+  --color-line: #dadada;
+  --color-white: #ffffff;
+
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
